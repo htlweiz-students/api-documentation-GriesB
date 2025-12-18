@@ -18,4 +18,12 @@ public class AverageCalculator
         saved[count-1] = value;
         total += value;
     }
+    public void Add(double[] value) {
+        foreach (var val in value)
+        {
+        count++;
+        saved[count-1] = val;
+        total += val;
+        }
+    }
 }
