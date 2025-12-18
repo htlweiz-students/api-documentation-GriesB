@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "AverageCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AverageCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AverageCalculator.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AverageCalculator/1.0.0": {
+      "type": "project",
+      "path": "../AverageCalculator/AverageCalculator.csproj",
+      "msbuildProject": "../AverageCalculator/AverageCalculator.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "AverageCalculator >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/config/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
+      "projectUniqueName": "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
       "projectName": "Program00",
-      "projectPath": "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
+      "projectPath": "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
       "packagesPath": "/config/.nuget/packages/",
-      "outputPath": "/config/workspace/api-documentation-GriesB-1/Program00/obj/",
+      "outputPath": "/workspace/api-documentation-GriesB-1/Program00/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/config/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj": {
+              "projectPath": "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

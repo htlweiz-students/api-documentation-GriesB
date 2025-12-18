@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s2Ad6GFiCMYJrrb0g9qStQnNE1ZQklhuPH/ZBTCBXrvQJ3GwZJ/Ejz1k8d+QQZnwpb13PBeJ8iziEs9Y1DHsWw==",
+  "dgSpecHash": "kGhERZawzMr0T6jhrBH2AwOzPxExupZ3kgxcMBJOwMQzd2xaifem3Safv0Nd6mtZz56G+sNj9f0w4elI3y3Viw==",
   "success": true,
-  "projectFilePath": "/config/workspace/api-documentation-GriesB-1/AverageCalculator.Tests/AverageCalculator.Tests.csproj",
+  "projectFilePath": "/workspace/api-documentation-GriesB-1/AverageCalculator.Tests/AverageCalculator.Tests.csproj",
   "expectedPackageFiles": [
     "/config/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/config/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",
