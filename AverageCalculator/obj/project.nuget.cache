@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TwC+SsM5yPAf4/50uK6QbeaoA3XOWWuRP3+34qIESECiSZT5iwrGsNQkobmpmUzua9skrHYibmT7uq7KytakDw==",
+  "dgSpecHash": "R7iPSUYBlOXH6kdBavcTJjqXAkf3vNQEvfBFtCIRB5o1IwGNaxKqwLvwqLlxmISEHL4Ka/7zdix4OFeWTOme1w==",
   "success": true,
-  "projectFilePath": "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj",
+  "projectFilePath": "/config/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

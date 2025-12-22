@@ -1,47 +1,40 @@
-﻿namespace AverageCalculator;
+﻿
+namespace AverageCalculator;
 
-public class AverageCalculator
+public class Average
 {
-    private int count;
-    private double[] saved = [];
-    private double total;
-    public AverageCalculator (double[] values) {
-        foreach (var val in values) {
-            count++;
-            saved[count-1] = val;
-            total += val;
-        }
+    private List<double> saved;
+    public Average() {
+        saved = new List<double>();        
     }
-
     public void Add(double value) {
-        count++;
-        saved[count-1] = value;
-        total += value;
+        saved.Add(value);
     }
     public void Add(double[] value) {
-        foreach (var val in value)
-        {
-        count++;
-        saved[count-1] = val;
-        total += val;
-        }
+        saved.AddRange<double>(value);
     }
 
-    double GetAverage() {
+    public double GetAverage() {
         double toDivide = 0;
-        if (count == 0){
+        if (saved.Count == 0){
             return 0;
         } else {
         foreach (var val in saved) {
             toDivide += val;
         }
-        return toDivide/count;
+        return toDivide/saved.Count;
         }
     }
 
-    void GetElements() {
-        foreach (var val in saved) {
-            Console.WriteLine(val);
+    public double[]
+     GetElements() {
+        if (saved.Count == 0) {
+            return [0.0];
+        } else {
+        return saved;
         }
+    }
+    public int Count() {
+        return saved.Count;
     }
 }

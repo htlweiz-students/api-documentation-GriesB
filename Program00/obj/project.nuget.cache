@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dEJUtkXKzHHTrTqIo+P9DMSntgiK20BonpO+RB5LynqWY5ZuCTBG30442l9KlC7UfGkFvFucNClj7d6WEqtuaA==",
+  "dgSpecHash": "lCBJtDDgslGaXm2wK1fhrXnbUz1B7vYO9oPRgPDR0lRt9uafYvBGRoqQedV1HgA3s7sb4YVhDNgOa1/jwhF5Ww==",
   "success": true,
-  "projectFilePath": "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
+  "projectFilePath": "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
