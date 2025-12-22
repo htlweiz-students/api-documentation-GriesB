@@ -26,4 +26,22 @@ public class AverageCalculator
         total += val;
         }
     }
+
+    double GetAverage() {
+        double toDivide = 0;
+        if (count == 0){
+            return 0;
+        } else {
+        foreach (var val in saved) {
+            toDivide += val;
+        }
+        return toDivide/count;
+        }
+    }
+
+    void GetElements() {
+        foreach (var val in saved) {
+            Console.WriteLine(val);
+        }
+    }
 }
