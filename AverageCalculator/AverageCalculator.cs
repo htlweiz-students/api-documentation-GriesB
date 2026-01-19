@@ -4,6 +4,8 @@ namespace AverageCalculator;
 public class Average
 {
     private List<double> saved;
+    private double avrVal;
+    private int amount;
     public Average(List<double> setSaved)
     {
         saved = setSaved;
@@ -30,6 +32,7 @@ public class Average
             {
                 toDivide += val;
             }
+            avrVal = toDivide / saved.Count;
             return toDivide / saved.Count;
         }
     }
@@ -40,6 +43,11 @@ public class Average
     }
     public int Count()
     {
+        amount = saved.Count;
         return saved.Count;
+    }
+    public override string ToString()
+    {
+        return($"Average: {avrVal}, amount of values: {amount}");
     }
 }

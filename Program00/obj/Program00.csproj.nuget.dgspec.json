@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj": {}
+    "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj": {}
   },
   "projects": {
-    "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj": {
+    "/config/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj",
+        "projectUniqueName": "/config/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj",
         "projectName": "AverageCalculator",
-        "projectPath": "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj",
+        "projectPath": "/config/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj",
         "packagesPath": "/config/.nuget/packages/",
-        "outputPath": "/workspace/api-documentation-GriesB-1/AverageCalculator/obj/",
+        "outputPath": "/config/workspace/api-documentation-GriesB-1/AverageCalculator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/config/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj": {
+    "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
+        "projectUniqueName": "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
         "projectName": "Program00",
-        "projectPath": "/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
+        "projectPath": "/config/workspace/api-documentation-GriesB-1/Program00/Program00.csproj",
         "packagesPath": "/config/.nuget/packages/",
-        "outputPath": "/workspace/api-documentation-GriesB-1/Program00/obj/",
+        "outputPath": "/config/workspace/api-documentation-GriesB-1/Program00/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/config/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj": {
-                "projectPath": "/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj"
+              "/config/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj": {
+                "projectPath": "/config/workspace/api-documentation-GriesB-1/AverageCalculator/AverageCalculator.csproj"
               }
             }
           }
